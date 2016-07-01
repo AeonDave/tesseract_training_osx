@@ -21,7 +21,7 @@ class Tesseract < Formula
   end
 
   head do
-    url 'https://github.com/tesseract-ocr/', :using => :git
+    url 'https://github.com/tesseract-ocr/tesseract/archive/3.04.01.tar.gz', :using => :git
 
     depends_on :autoconf
     depends_on :automake
