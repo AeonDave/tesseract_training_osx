@@ -13,9 +13,9 @@ class Tesseract < Formula
   end
 
   devel do
-    url 'https://drive.google.com/uc?id=0B7l10Bj_LprhSGN2bTYwemVRREU&export=download'
-    sha1 '5bd12482a69f0a1fdf3c9e0d652de08db763ee93'
-    version '3.03rc1'
+    url 'https://github.com/tesseract-ocr/tesseract/archive/3.04.01.tar.gz'
+    sha1 '359ffc1925f0270ca100a2b4c1d3b41f4b23701d'
+    version '3.04.01'
 
     needs :cxx11
   end
